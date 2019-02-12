@@ -1,2 +1,3 @@
-# dlp-directives
-Cloud Data Loss Prevention Directives
+# Data Loss Prevention (DLP) directives
+
+A collection of DLP directives. 
