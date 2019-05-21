@@ -113,6 +113,12 @@
       <version>${dlp.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.google.api</groupId>
+      <artifactId>gax</artifactId>
+      <version>1.38.0</version>
+    </dependency>
+
     <!-- Testing Dependencies -->
     <dependency>
       <groupId>io.cdap.wrangler</groupId>
@@ -202,8 +208,6 @@
             <!--Only @Plugin classes in the export packages will be included as plugin-->
             <_exportcontents>
               io.cdap.directives.*;
-              com.google.api.*;
-              com.google.cloud.*;
             </_exportcontents>
           </instructions>
         </configuration>

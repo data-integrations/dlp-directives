@@ -68,7 +68,7 @@ import java.util.List;
  */
 @Plugin(type = Directive.TYPE)
 @Name(Redact.NAME)
-@Categories(categories = { "redact","dlp", "cloud"})
+@Categories(categories = {"redact", "dlp", "cloud"})
 @Description("Redact sensitive data from a column")
 public class Redact implements Directive {
   private static final Logger LOG = LoggerFactory.getLogger(Redact.class);
