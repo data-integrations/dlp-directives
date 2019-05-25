@@ -1,0 +1,134 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< io.cdap.directives:dlp-directives >------------------
+[INFO] Building Cloud DLP Directives 0.1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from snapshot: https://repository.apache.org/content/repositories/snapshots/io/cdap/cdap/cdap-api-common/6.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from snapshot: https://repository.apache.org/content/repositories/snapshots/io/cdap/cdap/cdap-api-common/6.1.0-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ dlp-directives ---
+[INFO] io.cdap.directives:dlp-directives:jar:0.1.0-SNAPSHOT
+[INFO] +- io.cdap.wrangler:wrangler-api:jar:4.1.0-SNAPSHOT:provided
+[INFO] +- io.cdap.cdap:cdap-api:jar:6.0.0-SNAPSHOT:provided
+[INFO] |  +- io.cdap.cdap:cdap-api-common:jar:6.0.0-SNAPSHOT:provided
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.2.4:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.5:provided
+[INFO] |  +- org.apache.tephra:tephra-api:jar:0.15.0-incubating:provided
+[INFO] |  +- org.apache.twill:twill-api:jar:0.13.0:provided
+[INFO] |  |  +- org.apache.twill:twill-common:jar:0.13.0:provided
+[INFO] |  |  \- org.apache.twill:twill-discovery-api:jar:0.13.0:provided
+[INFO] |  \- javax.ws.rs:javax.ws.rs-api:jar:2.0:provided
+[INFO] +- io.cdap.cdap:cdap-etl-api:jar:6.0.0-SNAPSHOT:provided
+[INFO] +- com.google.cloud:google-cloud-dlp:jar:0.93.0-beta:compile
+[INFO] |  +- com.google.cloud:google-cloud-core:jar:1.75.0:compile
+[INFO] |  |  +- com.google.http-client:google-http-client:jar:1.29.1:compile
+[INFO] |  |  |  \- io.opencensus:opencensus-contrib-http-util:jar:0.19.2:compile
+[INFO] |  |  +- com.google.protobuf:protobuf-java-util:jar:3.7.1:compile
+[INFO] |  |  +- com.google.api.grpc:proto-google-common-protos:jar:1.15.0:compile
+[INFO] |  |  \- com.google.api.grpc:proto-google-iam-v1:jar:0.12.0:compile
+[INFO] |  +- com.google.cloud:google-cloud-core-grpc:jar:1.75.0:compile
+[INFO] |  |  +- com.google.auth:google-auth-library-credentials:jar:0.15.0:compile
+[INFO] |  |  +- com.google.protobuf:protobuf-java:jar:3.7.1:compile
+[INFO] |  |  +- io.grpc:grpc-protobuf:jar:1.19.0:compile
+[INFO] |  |  |  \- io.grpc:grpc-protobuf-lite:jar:1.19.0:compile
+[INFO] |  |  +- io.grpc:grpc-context:jar:1.19.0:compile
+[INFO] |  |  \- com.google.api:gax-grpc:jar:1.44.0:compile
+[INFO] |  |     \- io.grpc:grpc-alts:jar:1.19.0:compile
+[INFO] |  |        \- io.grpc:grpc-grpclb:jar:1.19.0:compile
+[INFO] |  +- com.google.api.grpc:proto-google-cloud-dlp-v2:jar:0.58.0:compile
+[INFO] |  +- io.grpc:grpc-stub:jar:1.19.0:compile
+[INFO] |  +- io.grpc:grpc-auth:jar:1.19.0:compile
+[INFO] |  \- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] +- com.google.api:gax:jar:1.44.0:compile
+[INFO] |  +- com.google.guava:guava:jar:26.0-android:compile
+[INFO] |  |  +- org.checkerframework:checker-compat-qual:jar:2.5.2:compile
+[INFO] |  |  +- com.google.errorprone:error_prone_annotations:jar:2.1.3:compile
+[INFO] |  |  +- com.google.j2objc:j2objc-annotations:jar:1.1:compile
+[INFO] |  |  \- org.codehaus.mojo:animal-sniffer-annotations:jar:1.14:compile
+[INFO] |  +- org.threeten:threetenbp:jar:1.3.3:compile
+[INFO] |  +- com.google.auth:google-auth-library-oauth2-http:jar:0.15.0:compile
+[INFO] |  |  \- com.google.http-client:google-http-client-jackson2:jar:1.29.0:compile
+[INFO] |  |     \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+[INFO] |  +- com.google.api:api-common:jar:1.7.0:compile
+[INFO] |  \- io.opencensus:opencensus-api:jar:0.19.2:compile
+[INFO] +- io.grpc:grpc-netty-shaded:jar:1.19.0:compile
+[INFO] |  \- io.grpc:grpc-core:jar:1.19.0:compile (version selected from constraint [1.19.0,1.19.0])
+[INFO] |     \- io.opencensus:opencensus-contrib-grpc-metrics:jar:0.19.2:compile
+[INFO] +- commons-codec:commons-codec:jar:1.6:compile
+[INFO] +- io.cdap.wrangler:wrangler-test:jar:4.1.0-SNAPSHOT:test
+[INFO] |  \- io.cdap.wrangler:wrangler-core:jar:4.1.0-SNAPSHOT:test
+[INFO] |     +- io.cdap.wrangler:wrangler-proto:jar:4.1.0-SNAPSHOT:test
+[INFO] |     +- org.antlr:antlr4:jar:4.7:test
+[INFO] |     |  +- org.antlr:antlr4-runtime:jar:4.7:test
+[INFO] |     |  +- org.antlr:antlr-runtime:jar:3.5.2:test
+[INFO] |     |  +- org.antlr:ST4:jar:4.0.8:test
+[INFO] |     |  +- org.abego.treelayout:org.abego.treelayout.core:jar:1.0.3:test
+[INFO] |     |  +- org.glassfish:javax.json:jar:1.0.4:test
+[INFO] |     |  \- com.ibm.icu:icu4j:jar:58.2:test
+[INFO] |     +- org.json:json:jar:20180813:test
+[INFO] |     +- org.apache.commons:commons-csv:jar:1.4:test
+[INFO] |     +- org.unix4j:unix4j-command:jar:0.4:test
+[INFO] |     |  \- org.unix4j:unix4j-base:jar:0.4:test
+[INFO] |     +- com.jayway.jsonpath:json-path:jar:2.2.0:test
+[INFO] |     |  \- net.minidev:json-smart:jar:2.2.1:test
+[INFO] |     |     \- net.minidev:accessors-smart:jar:1.1:test
+[INFO] |     |        \- org.ow2.asm:asm:jar:5.0.3:test
+[INFO] |     +- org.apache.commons:commons-lang3:jar:3.5:compile
+[INFO] |     +- org.apache.commons:commons-jexl3:jar:3.0:test
+[INFO] |     +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[INFO] |     |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[INFO] |     |  \- commons-logging:commons-logging:jar:1.2:compile
+[INFO] |     +- org.reflections:reflections:jar:0.9.9:test
+[INFO] |     |  +- org.javassist:javassist:jar:3.18.2-GA:test
+[INFO] |     |  \- com.google.code.findbugs:annotations:jar:2.0.1:test
+[INFO] |     +- org.apache.poi:poi:jar:3.16:test
+[INFO] |     |  \- org.apache.commons:commons-collections4:jar:4.1:test
+[INFO] |     +- org.apache.poi:poi-ooxml:jar:3.16:test
+[INFO] |     |  +- org.apache.poi:poi-ooxml-schemas:jar:3.16:test
+[INFO] |     |  |  \- org.apache.xmlbeans:xmlbeans:jar:2.6.0:test
+[INFO] |     |  |     \- stax:stax-api:jar:1.0.1:test
+[INFO] |     |  \- com.github.virtuald:curvesapi:jar:1.04:test
+[INFO] |     +- org.apache.commons:commons-math3:jar:3.6.1:test
+[INFO] |     +- com.joestelmach:natty:jar:0.13:test
+[INFO] |     |  \- org.mnode.ical4j:ical4j:jar:1.0.2:test
+[INFO] |     |     +- commons-lang:commons-lang:jar:2.6:test
+[INFO] |     |     \- backport-util-concurrent:backport-util-concurrent:jar:3.1:test
+[INFO] |     +- nl.basjes.parse.httpdlog:httpdlog-parser:jar:3.0:test
+[INFO] |     |  +- nl.basjes.parse:parser-core:jar:3.0:test
+[INFO] |     |  \- commons-httpclient:commons-httpclient:jar:3.1:test
+[INFO] |     +- joda-time:joda-time:jar:2.9.7:test
+[INFO] |     +- com.github.rholder:guava-retrying:jar:2.0.0:test
+[INFO] |     +- org.apache.avro:avro:jar:1.8.1:test
+[INFO] |     |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:test
+[INFO] |     |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:test
+[INFO] |     |  +- com.thoughtworks.paranamer:paranamer:jar:2.7:test
+[INFO] |     |  +- org.xerial.snappy:snappy-java:jar:1.1.1.3:test
+[INFO] |     |  +- org.apache.commons:commons-compress:jar:1.8.1:test
+[INFO] |     |  \- org.tukaani:xz:jar:1.5:test
+[INFO] |     +- org.bouncycastle:bcprov-jdk15on:jar:1.56:test
+[INFO] |     +- ca.uhn.hapi:hapi-base:jar:2.2:test
+[INFO] |     +- ca.uhn.hapi:hapi-structures-v21:jar:2.2:test
+[INFO] |     +- ca.uhn.hapi:hapi-structures-v22:jar:2.2:test
+[INFO] |     +- ca.uhn.hapi:hapi-structures-v23:jar:2.2:test
+[INFO] |     +- ca.uhn.hapi:hapi-structures-v231:jar:2.2:test
+[INFO] |     +- ca.uhn.hapi:hapi-structures-v24:jar:2.2:test
+[INFO] |     +- ca.uhn.hapi:hapi-structures-v25:jar:2.2:test
+[INFO] |     +- ca.uhn.hapi:hapi-structures-v251:jar:2.2:test
+[INFO] |     +- ca.uhn.hapi:hapi-structures-v26:jar:2.2:test
+[INFO] |     +- io.dataapps.chlorine:chlorine-finder:jar:1.1.5:test
+[INFO] |     +- com.github.mpkorstanje:simmetrics-core:jar:4.1.1:test
+[INFO] |     +- commons-io:commons-io:jar:2.5:test
+[INFO] |     +- com.github.filosganga:geogson-core:jar:1.1.97:test
+[INFO] |     \- commons-validator:commons-validator:jar:1.6:test
+[INFO] |        +- commons-beanutils:commons-beanutils:jar:1.9.2:test
+[INFO] |        +- commons-digester:commons-digester:jar:1.8.1:test
+[INFO] |        \- commons-collections:commons-collections:jar:3.2.2:test
+[INFO] \- junit:junit:jar:4.12:test
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.902 s
+[INFO] Finished at: 2019-05-24T19:26:50-07:00
+[INFO] ------------------------------------------------------------------------
